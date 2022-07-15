@@ -27,3 +27,6 @@ console.log(aJ);
 
 const appleOrangeJuice = fruitProcessor(3, 5);
 console.log(appleOrangeJuice);
+
+
+
