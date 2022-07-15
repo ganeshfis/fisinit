@@ -27,7 +27,7 @@ console.log(aJ);
 
 const appleOrangeJuice = fruitProcessor(3, 5);
 console.log(appleOrangeJuice);
-*/
+
 
 
 function calcAge1(birthYear) {
@@ -41,3 +41,22 @@ const calcAge2 = function (birthYear) {
 }
 const age2 = calcAge2(2000);
 console.log(age1, age2);
+*/
+
+const calcAge2 = function (birthYear) {
+    return 2037 - birthYear;
+}
+// arrow fucntion
+
+const calcAge3 = birthYear => 2037 - birthYear;
+
+const age3 = calcAge3(2000);
+console.log(age3);
+
+const yearsUntilRetire = (birthYear, firstname) => {
+    const age = 2000 - birthYear;
+    const retirement = 65 - age;
+    return `${fisrtname} retires in ${retirement} years`;
+}
+console.log(yearsUntilRetire(2000, 'ganesh'));
+console.log(yearsUntilRetire(2000, 'bob'));
